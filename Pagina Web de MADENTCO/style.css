@@ -1,0 +1,25 @@
+.Logo1{width: 300px;}
+.boton{
+border: none;
+background: rgb(67, 67, 255);
+text-align: left;
+border-radius: 15px;
+color: white;
+width: 600px;}
+.body{background-image: url(madentcofondo.jpg);
+background-size: cover;}
+.img3{width: 700; border-radius: 15px; }
+.productos{
+    border: none;
+    background: rgb(67, 67, 255);
+    text-align: left;
+    border-radius: 15px;
+    color: white;
+    width: 120px;}
+    .vidpro{width: 700; border-radius: 15px; margin-left: 150px;}
+    .imgproduc{width: 200px; border-radius: 15px; margin-left: 200;}
+    .servicios{width: 400px; border-radius: 15px;}
+    .servicios1{width: 200px; border-radius: 15px; margin-left: 40px;}
+    .bodyy{background-image: url(fondopag1.jpg);
+        background-size: cover;}
+

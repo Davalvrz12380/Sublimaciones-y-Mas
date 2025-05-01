@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones Verticales</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+           
+            height: 100vh;
+            background-color: #49b6ff;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .boton {
+            width: 100px;
+            padding: 15px;
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #fffffffd;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <body>
+            <h2><center>MENU</center></h2>
+        </body>
+       
+        <a href="PAGINA3.html" target="principal"><button class="boton">INICIO</button></a>
+        <a href="PRODUCTOS1.html" target="principal"><button class="boton">PRODUCTOS</button></a>
+        <a href="SERVICIOS.html" target="principal"><button class="boton">SERVICIOS</button></a>
+        <a href="SOBRENOSOTROS.html" target="principal"><button class="boton">SOBRE NOSOTROS</button></a>
+        <a href="CONTACTOS.html" target="principal"><button class="boton">CONTACTOS</button></a>
+    </div>
+</body>
+</html>
